@@ -17,7 +17,7 @@ async def batch(client: Client, message: Message):
         if f_msg_id:
             break
         else:
-            await first_message.reply("❌ Error GOBLOK kirim link/file yang bener napa", quote = True)
+            await first_message.reply("❌ Error GOBLOK kirim link/file yang bener napa.\n\nGue nerima yang dari database doang, Selain itu ERROR GOBLOK", quote = True)
             continue
 
     while True:
@@ -29,7 +29,7 @@ async def batch(client: Client, message: Message):
         if s_msg_id:
             break
         else:
-            await second_message.reply("❌ Error GOBLOK kirim link/file yang bener napa", quote = True)
+            await second_message.reply("❌ Error GOBLOK kirim link/file yang bener napa.\n\nGue nerima yang dari database doang, Selain itu ERROR GOBLOK", quote = True)
             continue
 
 
