@@ -13,8 +13,7 @@
 </p>
 
 
-Telegram Bot to store Posts and Documents and it can Access by Special Links.
-I Guess This Will Be Usefull For Many People.....😇. 
+Telegram Bot Yang bertujuan untuk membagi bagi asupan bokep oleh warga bumi Terutama WARGA +62
 
 ##
 
