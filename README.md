@@ -19,16 +19,20 @@ Telegram Bot Yang bertujuan untuk membagi bagi asupan bokep oleh warga bumi Teru
 
 
 
-### Features
-- Fully customisable.
-- Customisable welcome messages.
-- More than one Posts in One Link.
-- Can be deployed on heroku directly.
+### Fitur bot ini: 
+- Sabi disetel sendiri mau jadi bot yg kaya apa. Mulai dari welcome message, About, Command, Reply, Dll.
+- Gapake ngelag kalo buat share bokep
+- Bisa ngirim bokep lebih dari 1, bahkan se website youtube biru bisa
+- Gampang Deploy nya. 
+- Gada batas kapasitas (kayanya)
 
-### Setup
+### Pengaturan
 
-- Add the bot to Database Channel with all permission
-- Add bot to ForceSub channel as Admin with Invite Users via Link Permission if you enabled ForceSub 
+- Tambahkan bot ini ke Channel kalian.
+  Ada 2 channel, Pertama Database channel buat naruh file nya (Storage File).
+  Kedua Main Channel (Channel Utama) kalian. 
+  ○ Tambahkan ke channel terus jadiin admin di kedua channel tersebut.
+- Berikan semua Ijin admin buat bot nya (Kecuali 'Add admin')
 
 ##
 ### Installation
@@ -38,8 +42,7 @@ Telegram Bot Yang bertujuan untuk membagi bagi asupan bokep oleh warga bumi Teru
   <img src="https://img.shields.io/badge/How%20to-Deploy-red?logo=youtube" width="147">
 </a><br>
 **Check This Tutorial Video on YouTube for any Help**<br>
-**Thanks to [Erich](https://t.me/ErichDaniken) and his [InFoTel](https://t.me/InFoTel_Group) for this Video**
-
+**Thanks to [TG Code X] (https://t.me/codexbotz) 
 #### Deploy in your VPS
 ````bash
 git clone https://github.com/CodeXBotz/File-Sharing-Bot
