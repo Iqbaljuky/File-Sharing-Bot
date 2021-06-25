@@ -93,11 +93,10 @@ Crot aja si
 
 ### Credits
 
-- Thanks To Dan For His Awsome [Libary](https://github.com/pyrogram/pyrogram)
+- Thanks To (GOD). Karena pendosa seperti kita (yang merasa) masih diberi nafas sampe hari ini padahal tiap hari berbuat maksiat++
 - Our Support Group Members
 
-### Licence
-[![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
+### Licence 
 
 [FILE-BOKEP-SHARING-BOT](https://github.com/hardolando/File-Sharing-Bot/tree/patch-2) is Free Software: You can use, study share and improve it at your
 will. Specifically you can redistribute and/or modify it under the terms of the
