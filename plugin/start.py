@@ -40,7 +40,7 @@ async def start_command(client: Client, message: Message):
                 ids = [int(int(argument[1]) / abs(client.db_channel.id))]
             except:
                 return
-        temp_msg = await message.reply("Please wait...")
+        temp_msg = await message.reply("TUNGGU SEBENTAR..")
         try:
             messages = await get_messages(client, ids)
         except:
@@ -73,8 +73,8 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🤴 My Master", callback_data = "about"),
-                    InlineKeyboardButton("Oke", callback_data = "close")
+                    InlineKeyboardButton("CREATOR", callback_data = "about"),
+                    InlineKeyboardButton("TUTUP", callback_data = "close")
                 ]
             ]
         )
@@ -94,11 +94,11 @@ async def start_command(client: Client, message: Message):
 
 @Bot.on_message(filters.command('start') & filters.private)
 async def not_joined(client: Client, message: Message):
-    text = "<b>Join Dulu lah sayang\nLu kira gampang bikin ginian\nSusah gblk\n\nGada yang gratis\nSubs buru biar kita sama sama untung\n\nGak Join Mandul</b>"
+    text = "<b>Maap, akses ke bot ditolak !!\n\n\Untuk menggunakan bot ini, terlebih dahulu anda harus Join/Bergabung ke channel dengan menekan tombol dibawah ini lalu klik Join/Gabung. Lalu coba lagi. and </b>"
     message_text = message.text
     try:
         command, argument = message_text.split()
-        text = text + f" <b>and <a href='https://t.me/{client.username}?start={argument}'>try again</a></b>"
+        text = text + f" <b>and <a href='https://t.me/{client.username}?start={argument}'>DISINI</a></b>"
     except ValueError:
         pass
     reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("BURU JOIN", url = client.invitelink)]])
